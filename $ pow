@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    int days;
+    
+    cout << "Enter the number of days: ";
+    cin >> days;
+
+    int $= pow(2, days - 1);
+    //per day duble 2 is fix base
+    //day =n
+    //2 is base, its pow is n-1
+
+    cout << "Amount in $ for " << days << " days: $" << $<< endl;
+
+    return 0;
+}
